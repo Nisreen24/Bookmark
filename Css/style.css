@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../webfonts/Pacifico.woff), url(../webfonts/Pacifico.ttf);
+}
+
+:root{
+    --Main-font: 'Pacifico';
+}
+
+/*? Main Style*/
+h1,
+h2{
+    text-align: center;
+    color: rgb(2, 68, 55);
+}
+h1{
+    font-family: var(--Main-font);
+    font-size: 50px;
+}
+h2{
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+}
+body{
+    background-color: #F7ECDE;
+    
+}
